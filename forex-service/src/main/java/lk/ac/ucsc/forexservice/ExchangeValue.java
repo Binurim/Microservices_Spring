@@ -36,34 +36,17 @@ public class ExchangeValue {
         return id;
     }
 
-//    public void setId(Long id) {
-//        this.id = id;
-//    }
-
     public String getFrom() {
         return from;
     }
-
-//    public void setFrom(String from) {
-//        this.from = from;
-//    }
 
     public String getTo() {
         return to;
     }
 
-//    public void setTo(String to) {
-//        this.to = to;
-//    }
-
     public double getConversionRate() {
         return conversionRate;
     }
-
-//    public void setConversionRate(double conversionRate) {
-//        this.conversionRate = conversionRate;
-//    }
-
 
     public int getPort() {
         return port;
@@ -72,6 +55,5 @@ public class ExchangeValue {
     public void setPort(int port) {
         this.port = port;
     }
-
 
 }

@@ -7,9 +7,6 @@ public class CurrencyConversionBean {
     private double conversionRate;
     private double quantity;
 
-    public CurrencyConversionBean() {
-    }
-
     public CurrencyConversionBean(Long id, String from, String to, double conversionRate, double quantity, double totalAmount, int port) {
         this.id = id;
         this.from = from;
